@@ -1,0 +1,33 @@
+
+Primena:
+
+fiber-opticka tehnologija
+fiber-optic (opticki) kablovi se intezivnije koriste u poslednjih desetak godina i oni se u svom radu ne oslanjaju na prenos elekricnih impulsa,vec za prenos informacija koriste svetlosni signal. zahvaljujuci tome postizu se vrlo visoke brzne prenosa na velike udaljenosti skoro bez ikakvih gubitaka u samom prenosu. opticki kablovi se i strukturno razlikuju od kablova sa bakarnim provodnicima,ali je i njihova finalna cena mnogo veca od prethodnika. trenutno,tehnologija optickih kablova,raspolaze sa velikom brzinom prenosa i razvoj ove tehnologije ide ka mnogo vecim brzinama i od 150gbps. opticki kablovi se koriste u vrlo sirokom rasponu brzina i udaljenosti koje mogu ostvariti.  udaljenosti mogu biti od nekoliko stotina metara do nekoliko stotina kilometara bez pojacanja signala.
+opticki kablovi koriste svetlost za prenos podataka umesto elektricnih signala. koji se koriste u STP I UTP kablovima. 
+opticke racunarske mreze koriste posebne vrste konektora u svom radu. zbog osobenosti opticke tehnologije,pripadajuci konektori moraju biti vrlo precizne i pouzdane izrade i kvaliteta.kada je rec o optickim kablovima,oni se razlikuju po svojoj strukturi od kablova sa bakarnim provodnicima. od ovih parametara i paramatera specificnih za odredjene tipove kablova zavisi kvalitet kabla,odnosno odredjuje se njegova namena u procesu prenosa mreznog signala. 
+
+ethernet
+10 gbps(1250mb/s) ethernet
+
+ethernet je popularna metoda umrezavanja racunara u lokalnim  mrezama lan pomocu
+bakarnog kabla.brzina etherneta danas nudi brzine sve do 1000 mbs/ pa i vise.
+
+
+prednosti fiber opticke mreze u odnosu na ethernet
+
+- opticki kablovi prenose podatke mnogo vecim brzinama od bakarnih zica.to je zato sto je brzina svetlosti veca od brzine elektrona. imaju mnogo vecu propusnost 60 tbps u odnosu na bakarne kablove od 10 gbps.
+-opticki kablovi moraju se dodati na svakih 50 km dok je kod bakarnih kablova povrsina koju obuhvataju do 5km.
+-na opticke kablove ne uticu elektromagnetne smetnje.na njih najmanje uticu
+prekidi napajanja,pa samim tim imaju veci kvalitet mreze.
+--opticki kablovi su mnogo sigurniji jer se ne mogu lako dodirnuti.vlaknasti kablovi su tanki i lagani - laksi su od bakarnih kablova.
+-zivotni ciklus im je od 30-50 godina mnogo veci od bakarnih zica.
+
+prednosti bakrenih kablova u odnosu na fiber opticke kablove
+
+-fiber opticki kablovi su novija tehnologija,pa instalacija i odrzavanje nisu tako jednostavni kao kod bakrenih kablova.
+-bakreni kablovi i konektori su mnogo jeftiniji od optickih kablova i konektora.
+-sirenje signala u optickim kablovima nije usmereno. za dvosmernu komunikaciju su potrebna dva kabla.
+
+sta odabrati:
+
+za poslovno okruzenje koje poseduje vece prihode i poslovne zahteve pa samim tim zahtevaju vecu brzinu protoka podataka kao i bolji kvalitet veze,opticki internet predstavlja bolji izbor od ethernet uredjaja.

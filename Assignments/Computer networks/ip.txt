@@ -1,0 +1,30 @@
+Ethernet interface/adapter
+
+Get-NetIPAddress
+
+New-NetIPAddress -InterfaceAlias vEthernet (Default Switch) -AddressFamily IPv4 -IPAddress 192.168.100.2 
+
+
+a-DefaultGateway 192.168.100.1
+
+ipconfig
+
+
+
+
+
+New-NetIPAddress -InterfaceIndex 12 -AddressFamily IPv4 -IPAddress 192.168.100.152 -PrefixLength 24 -DefaultGateway 192.168.100.1
+
+New-NetIPAddress -InterfaceAlias Ethernet0 -AddressFamily IPv4 -IPAddress 192.168.100.2 -PrefixLength 24 -DefaultGateway 192.168.100.1
+
+Get-NetIPAddress -InterfaceIndex 12
+Get-NetRoute -InterfaceIndex 12
+Remove-NetIPAddress -InterfaceIndex 12
+New-NetIPAddress -InterfaceIndex 12 -IPAddress 192.168.100.2 -PrefixLength 24
+Remote-NetRoute -InterfaceIndex 12
+New-NetRoute -InterfaceIndex 12 -NextHop 192.168.100.1 -DestinationPrefix 0.0.0.0/0
+ping 192.168.100.1
+ping 216.154.220.53
+Get-DnsClientServerAddress -Interface 12
+Set-DnsClientServerAddress -Interface 12 -ServerAddresses @("8.8.8.8","8.8.4.4")
+ping osric.com

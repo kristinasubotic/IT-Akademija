@@ -1,0 +1,23 @@
+
+1. Otvoricemo aplikaciju Task Scheduler iz windows search console.
+2. Sa desne strane cemo odabrati ponudjenu opciju  Create a Basic task.
+3. Odredicemo ime i opis task-a. (Name,Description)
+4. Za Trigger cemo izabrati Daily.
+5. Start (Vreme) 13:00:00
+6.Action - Start a program
+7.Izabracemo fajl koji ce se pokrenuti.
+c:\PS1\skripta.ps1 (Prethodni fajl koji smo napravili )
+
+sadrzaj fajla:
+(koji se nalazi na putanji C:\PS1)
+
+Get-WmiObject -Class Win32_BIOS –ComputerName
+Get-WmiObject -Class Win32_Processor -ComputerName . | Select-Object -Property [a-z]*
+Get-WmiObject -Class Win32_ComputerSystem -ComputerName . | Select-Object -Property SystemType
+Get-WmiObject -Class Win32_ComputerSystem
+
+Videcemo da se task sada pojavio u task scheduler-u sa atributima:
+Name | at 13:00 every day
+
+
+

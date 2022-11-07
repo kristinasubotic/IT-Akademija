@@ -1,0 +1,17 @@
+1. Otvoricemo aplikaciju Task Scheduler iz windows search console.
+2. Sa desne strane cemo odabrati ponudjenu opciju  Create a Basic task.
+3. Odredicemo ime i opis task-a. (Name,Description)
+4. Za Trigger cemo izabrati Daily.
+5. Start (Vreme) 17:00:00
+6.Action - Start a program
+7.Izabracemo fajl koji ce se pokrenuti.
+pera.bat (Prethodni fajl koji smo napravili )
+
+sadrzaj fajla:
+xcopy C:\pera D:\pera
+
+Videcemo da se task sada pojavio u task scheduler-u sa atributima:
+Name | at 17:00 every day
+
+
+

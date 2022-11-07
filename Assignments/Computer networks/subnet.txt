@@ -1,0 +1,59 @@
+1)
+
+mreza 10.20.6.0/24
+zahtevani broj hostova mrh = 7
+originalni broj bitova n01 = 24
+moguci broj hostova mh
+moguci broj subnetova ns
+
+a)moguci broj hostova
+
+mh = 2 n0-2
+mh >= mrh
+2n0-2 >= 7
+2n0 >= 7+2
+2n0 >= 9
+
+2 na 4 >= 9
+n0 >= 4
+
+mh = 2n0-2 
+mh = 2 na 4 -2 
+mh = 16-2
+mh = 14
+
+moguci broj hostova je 14
+
+b)moguci broj subnetova
+
+nd1 = 32-n0-n01
+n01 = 24 (10.20.6.0/24)
+nd1 = 32-4-24
+nd1 = 4
+
+ns = 2 na nd1 -2
+ns = 2 na 4 - 2
+ns = 16-2
+ns = 14
+
+moguci broj subnetova je 14
+
+
+2)
+111.17.0.0/24
+111.17.2.0/24
+111.17.3.0/24
+111.17.4.0/24
+
+jedini deo koji se ne menja kod ovih subnetova je 111.17 pa je njega potrebno fiksirati pomocu vodecih jedinica.
+
+prvi oktet u kom je vrednost 111 ima  8 vodecih jedinica,a drugi oktet
+oktet u kom je vrednost 17 takodje ima 8 vodecih jedinica.
+
+treci i cetvrti oktet se ne fiksiraju posto se njihove vrednosti u ovom primeru menjaju.
+
+ovo mozemo proveriti i na delu tako sto cemo brojeve pretvoriti u binarni zapis pa spustiti liniju na mesto gde su cifre jednake.
+Na taj način dolazimo do konačnog zajedničnog network ID-ja za sve navedene subnetove, a
+to je 111.17.0.0/24.
+
+
